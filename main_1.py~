@@ -8,7 +8,7 @@ def main():
     print("Do you have acount with us? (Y/N)")
     a=input().upper
     if a=="Y":
-	login_user()
+	login_user();
     elif a=="N":
 	register_user()
 	login_user()
